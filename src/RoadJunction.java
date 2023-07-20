@@ -22,7 +22,12 @@ public class RoadJunction {
 
     }
 
-    public void switchLamps(){ // method to switch lamps in a road junction
+    /**
+     * Switches lamps in the road junction.
+     *
+     */
+
+    public void switchLamps(){
 
         if (one.isGreenOn() || two.isGreenOn() || three.isGreenOn()){
 
