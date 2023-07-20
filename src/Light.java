@@ -1,3 +1,7 @@
+/**
+ * Represents a light.
+ */
+
 public class Light {
 
 
