@@ -53,7 +53,14 @@ public class RoadJunction {
 
     }
 
-    public boolean isCrossingSafe(int streetNumber){ // method checks if a lamp in a road junction is safe to cross. 1, 2 or 3 must be written as parameter.
+    /**
+     * Checks if a lamp in a road junction is safe to cross. 1, 2 or 3 must be written as parameter.
+     *
+     * @param streetNumber Number of street to check
+     * @return Is the street safe to cross
+     */
+
+    public boolean isCrossingSafe(int streetNumber){
 
         boolean returnValue;
 
