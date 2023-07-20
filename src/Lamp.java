@@ -47,6 +47,4 @@ public class Lamp {
 
         return red.getIsLightOn();
     }
-
-
 }
